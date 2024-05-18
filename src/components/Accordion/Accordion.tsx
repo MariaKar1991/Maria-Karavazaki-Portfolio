@@ -64,7 +64,7 @@ export default function Accordion(): JSX.Element {
           tabIndex={3}
         >
           <div className="accordion-sections-title flex cursor-pointer justify-between">
-            <span>Can you provide examples of your previous work? </span>
+            <span>Can you provide examples of your work? </span>
             <img
               className="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
