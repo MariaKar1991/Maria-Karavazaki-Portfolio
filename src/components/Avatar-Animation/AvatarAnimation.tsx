@@ -11,7 +11,7 @@ export default function AvatarAnimation(): JSX.Element {
       <div className="image-container">
         <img
           className="avatar-animation-image"
-          src="/total-gray-avatar.png"
+          src="/images/total-gray-avatar.png"
           alt="avatar image"
         />
       </div>

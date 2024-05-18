@@ -9,7 +9,7 @@ export default function NavigationBar(): JSX.Element {
   };
 
   // File path for the CV
-  const cvFilePath: string = "./public/Maria.Karavazaki.CV.pdf";
+  const cvFilePath: string = "/Maria.Karavazaki.CV.pdf";
 
   return (
     <>
@@ -17,7 +17,7 @@ export default function NavigationBar(): JSX.Element {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <div className="logo-container flex items-center space-x-3 rtl:space-x-reverse">
             <img
-              src="/public/logo.png"
+              src="/images/logo.png"
               className="logo-nav-image"
               alt="logo image"
             />

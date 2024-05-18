@@ -27,7 +27,7 @@ export default function MainPage(): JSX.Element {
         <div className="main-image-container">
           <img
             className="avatar-in-main-image"
-            src="/public/total-gray-avatar.png"
+            src="/images/total-gray-avatar.png"
             alt="avatar image in main page"
           />
         </div>

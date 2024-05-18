@@ -11,7 +11,7 @@ export default function Header(): JSX.Element {
         </h2>
         <img
           className="white-logo"
-          src="/public/logo-white.png"
+          src="/images/logo-white.png"
           alt="white logo icon"
         />
       </div>

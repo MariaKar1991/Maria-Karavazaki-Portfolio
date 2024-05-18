@@ -18,7 +18,7 @@ export default function Footer(): JSX.Element {
         </p>
         <img
           className="arrowUp"
-          src="/public/arrowUp.png"
+          src="/images/arrowUp.png"
           alt="arrow up icon"
           // Event handler to scroll to top on click
           onClick={scrollToTop}

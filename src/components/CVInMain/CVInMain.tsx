@@ -2,7 +2,7 @@ import "./CVInMain.css";
 
 export default function CVInMain(): JSX.Element {
   // File path to the CV PDF
-  const cvFilePath = "./public/Maria.Karavazaki.CV.pdf";
+  const cvFilePath = "/Maria.Karavazaki.CV.pdf";
 
   return (
     <div className="cv-main-container">
@@ -15,7 +15,7 @@ export default function CVInMain(): JSX.Element {
       </a>
       <img
         className="white-logo-cv"
-        src="/public/logo-white.png"
+        src="/images/logo-white.png"
         alt="white logo icon"
       />
     </div>

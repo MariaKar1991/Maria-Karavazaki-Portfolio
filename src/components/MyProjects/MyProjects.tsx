@@ -32,7 +32,7 @@ export default function MyProjects(): JSX.Element {
         </h1>
         <img
           className="github-icon"
-          src="/public/white-github.png"
+          src="/images/white-github.png"
           alt="GitHub Icon"
         />
       </div>
