@@ -41,6 +41,8 @@
   color: white;
   font-size: 23px;
   width: 300px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-container textarea {

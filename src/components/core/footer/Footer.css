@@ -16,15 +16,16 @@
 .footer-paragraph {
   color: white;
   text-align: center;
+  justify-content: center;
   margin: 0 auto;
-  max-width: 85%;
+  max-width: 100%;
   margin-bottom: 20px;
   padding: 0 10px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .myName {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 900;
 }
 

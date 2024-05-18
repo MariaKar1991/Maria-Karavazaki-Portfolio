@@ -20,8 +20,7 @@ export default function Footer(): JSX.Element {
           onClick={scrollToTop}
         />
         <p className="footer-paragraph">
-          &copy; 2024 <span className="myName">Maria Karavazaki</span>. All
-          Rights Reserved.
+          &copy; 2024 <span className="myName">Maria Karavazaki.</span>
         </p>
       </div>
     </>
