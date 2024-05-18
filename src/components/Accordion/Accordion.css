@@ -1,4 +1,4 @@
-.faq {
+.faq-container {
   margin-top: -200px;
 }
 
@@ -16,20 +16,11 @@
 .accordion-sections-paragraph {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-}
-
-.second-accordion-title {
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
-}
-
-.answer-accordion {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  color: #aaadad;
 }
 
 .github-link {
-  color: grey;
+  color: #6f849f;
   margin-left: 5px;
 }
 
@@ -95,14 +86,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .accordion-sections-title {
-    font-size: 13px;
-  }
-}
-
 @media screen and (max-width: 820px) {
   .faq-animation-content h2 {
     font-size: 6em;
+  }
+  .accordion-sections-title {
+    font-size: 12px;
+  }
+  .accordion-sections-paragraph {
+    font-size: 11px;
   }
 }

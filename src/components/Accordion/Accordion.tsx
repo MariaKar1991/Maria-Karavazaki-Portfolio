@@ -3,7 +3,7 @@ import "./Accordion.css";
 // Accordion component
 export default function Accordion(): JSX.Element {
   return (
-    <div className="faq">
+    <div className="faq-container">
       <div className="faq-animation-container">
         <div className="faq-animation-content">
           <h2 className="faq-header">FAQ</h2>
@@ -18,14 +18,14 @@ export default function Accordion(): JSX.Element {
           tabIndex={1}
         >
           {/* Accordion item title and toggle icon */}
-          <div className="accordion-sections-title flex cursor-pointer items-center justify-between">
+          <div className="accordion-sections-title flex cursor-pointer justify-between">
             <span> What services do you offer as a web developer?</span>
             <img
               className="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
             />
           </div>
-          <div className="accordion-sections-paragraph invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
+          <div className="accordion-sections-paragraph invisible h-auto max-h-0 opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
             As a web developer, I offer a comprehensive range of services
             tailored to meet the diverse needs of my clients. My expertise spans
             both frontend and backend development, ensuring that I can deliver a
@@ -38,14 +38,14 @@ export default function Accordion(): JSX.Element {
           className="group flex flex-col gap-2 rounded-lg bg-black p-5 text-white"
           tabIndex={2}
         >
-          <div className="accordion-sections-title flex cursor-pointer items-center justify-between">
+          <div className="accordion-sections-title flex cursor-pointer justify-between">
             <span> What technologies do you specialize in?</span>
             <img
               className="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
             />
           </div>
-          <div className="answer-accordion invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
+          <div className="accordion-sections-paragraph invisible h-auto max-h-0 opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
             <ul>
               <li>TypeScript</li>
               <li>React</li>
@@ -63,14 +63,14 @@ export default function Accordion(): JSX.Element {
           className="group flex flex-col gap-2 rounded-lg bg-black p-5 text-white"
           tabIndex={3}
         >
-          <div className="accordion-sections-title flex cursor-pointer items-center justify-between">
+          <div className="accordion-sections-title flex cursor-pointer justify-between">
             <span>Can you provide examples of your previous work? </span>
             <img
               className="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
             />
           </div>
-          <div className="answer-accordion invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
+          <div className="accordion-sections-paragraph invisible h-auto max-h-0 opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
             You can find examples of my previous work on my GitHub profile:
             <a
               className="github-link"
