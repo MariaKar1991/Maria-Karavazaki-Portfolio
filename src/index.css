@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body,
+.accordion-sections-title {
+  cursor: url("/public/logo-white.png"), auto;
+}
+
+a,
+nav,
+button,
+.skills,
+.github-link,
+.accordion-sections-title {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}

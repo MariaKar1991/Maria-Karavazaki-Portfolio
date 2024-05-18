@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.logo-nav-image {
+  width: 28px;
+  height: 28px;
+}
+
+.logo:hover {
+  animation: spin 1s linear infinite;
+}
+
+.logo-container:hover .logo-nav-image {
+  animation: spin 1s linear infinite;
+}
+
+.name {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.linkedinLogo {
+  height: 25px;
+}
+
+.myCV {
+  color: rgb(162, 162, 176);
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+  color: rgb(180, 184, 193) !important;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .avatarLogo {
+    margin-right: 10px;
+  }
+
+  .self-center {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+}

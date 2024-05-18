@@ -1,0 +1,26 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.main-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin-top: -110px;
+}
+
+.avatar-in-main-image {
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -1,0 +1,82 @@
+.projects-card {
+  padding: 18px;
+  max-width: 280px;
+  margin-bottom: 70px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  min-height: 620px;
+  flex: 0 0 calc(33.33% - 40px);
+  margin-inline: 20px;
+  position: relative;
+}
+
+.projects-card img {
+  max-width: 100%;
+  min-height: 200px;
+}
+
+.projects-card .mt-8 {
+  margin-top: 4px;
+}
+
+.projects-card .text-xl {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.projects-card .text-gray-600 {
+  font-size: 0.875rem;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 34px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.projects-card .button {
+  padding: 4px 10px;
+  font-size: 0.875rem;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  justify-content: center;
+}
+
+.projects-card .button:hover {
+  background-color: #c8d2d6;
+  color: white !important;
+}
+
+.project-name {
+  color: #c8d2d6;
+  font-family: "Poppins", sans-serif;
+}
+
+.description {
+  color: #aaadad;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 820px) {
+  .projects-card {
+    flex: 0 0 calc(100% - 40px);
+    min-height: 600px;
+  }
+
+  .button-container {
+    bottom: 18px;
+  }
+
+  .button {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    height: 28px;
+    width: 50px;
+  }
+}

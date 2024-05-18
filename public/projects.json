@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Foodies Food Delivery App",
+    "image": "/public/project2.png",
+    "description": "A Food Delivery App using Angular 17 and Bootstrap. Project includes registering the user, user account, menu/cart, retrieving/ sending orders, order history, and searching stores by name and category.",
+    "demo": "https://food-delivery-app-angular.vercel.app/",
+    "code": "https://github.com/MariaKar1991/Food-Delivery-App-Angular"
+  },
+  {
+    "name": "FilmLand Movie App",
+    "image": "/public/project3.png",
+    "description": "FilmLand is a movie search application built with React, allowing users to explore a vast database of movies and get details about specific films.",
+    "demo": "https://film-land-movie-app.vercel.app/",
+    "code": "https://github.com/MariaKar1991/FilmLand-Movie-App"
+  },
+  {
+    "name": "Chirp Social Media App",
+    "image": "/public/project1.png",
+    "description": "I created this full MERN Stack Social Media App using React, Tailwind CSS, Next.JS, Prisma, MongoDB Atlas, and the principles of Responsive Layout. Project includes features such as login, editing profiles, registration, notifications, following users, and commenting.",
+    "demo": "",
+    "code": "https://github.com/MariaKar1991/Chirp-Social-Media-App"
+  }
+]
