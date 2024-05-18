@@ -50,18 +50,3 @@ a:hover {
     transform: rotate(360deg);
   }
 }
-
-@media (max-width: 768px) {
-  .avatarLogo {
-    margin-right: 10px;
-  }
-
-  .self-center {
-    font-size: 1.5rem;
-    margin-right: 10px;
-  }
-
-  .name {
-    font-size: 16px;
-  }
-}

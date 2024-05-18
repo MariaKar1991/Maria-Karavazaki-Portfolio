@@ -9,10 +9,10 @@ export default function MyProjects(): JSX.Element {
         <section>
           <div className="myProjects-content">
             <h2>
-              <strong className="strongGap">My</strong>Projects
+              <span className="strongGap">My</span>Projects
             </h2>
             <h2>
-              <strong className="strongGap">My</strong>Projects
+              <span className="strongGap">My</span>Projects
             </h2>
           </div>
         </section>

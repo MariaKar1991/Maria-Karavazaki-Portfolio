@@ -29,6 +29,10 @@
 
 @media screen and (max-width: 768px) {
   .download-here {
-    font-size: 25px;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+  .white-logo-cv {
+    width: 30px;
   }
 }

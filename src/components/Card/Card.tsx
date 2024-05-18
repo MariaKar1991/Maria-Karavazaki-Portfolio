@@ -6,7 +6,8 @@ export default function Card({ project }: Props): JSX.Element {
   return (
     <div className="projects-card p-8 max-w-lg border border-white-300 rounded-2xl hover:shadow-lg hover:shadow-indigo-50 flex flex-col items-center">
       <img
-        className="shadow rounded-lg overflow-hidden border"
+        className="project-image
+        shadow rounded-lg overflow-hidden border"
         src={project.image}
         alt={project.name}
       />

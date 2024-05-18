@@ -12,10 +12,6 @@ export default function Footer(): JSX.Element {
   return (
     <>
       <div className="footer-container">
-        <p className="footer-paragraph">
-          &copy; 2024 <span className="myName">Maria Karavazaki</span>. All
-          Rights Reserved.
-        </p>
         <img
           className="arrowUp"
           src="/images/arrowUp.png"
@@ -23,6 +19,10 @@ export default function Footer(): JSX.Element {
           // Event handler to scroll to top on click
           onClick={scrollToTop}
         />
+        <p className="footer-paragraph">
+          &copy; 2024 <span className="myName">Maria Karavazaki</span>. All
+          Rights Reserved.
+        </p>
       </div>
     </>
   );
