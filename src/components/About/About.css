@@ -91,11 +91,8 @@
   .about-paragraph-container {
     margin-top: -40px;
   }
-}
-
-@media (max-width: 765px) {
   .about-paragraph {
-    font-size: 13px;
+    font-size: 1em;
     text-align: center;
   }
 }

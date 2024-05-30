@@ -97,11 +97,11 @@
     font-size: 6em;
   }
   .accordion-sections-paragraph {
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: left;
   }
   .accordion-sections-title {
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: left;
     margin-right: -35px;
   }
@@ -109,7 +109,7 @@
 
 @media screen and (max-width: 430px) {
   .accordion-sections-title {
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: left;
     margin-right: -35px;
   }
@@ -121,7 +121,7 @@
 
 @media screen and (max-width: 375px) {
   .accordion-sections-title {
-    font-size: 0.7em;
+    font-size: 1em;
     text-align: left;
   }
   .accordion-sections-paragraph {
