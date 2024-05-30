@@ -29,6 +29,7 @@ export default function MainPage(): JSX.Element {
             className="avatar-in-main-image"
             src="/images/total-gray-avatar.png"
             alt="avatar image in main page"
+            loading="lazy"
           />
         </div>
         <Footer />

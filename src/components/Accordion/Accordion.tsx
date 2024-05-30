@@ -19,7 +19,7 @@ export default function Accordion(): JSX.Element {
         >
           {/* Accordion item title and toggle icon */}
           <div className="accordion-sections-title flex cursor-pointer justify-between">
-            <span> What services do you offer as a web developer?</span>
+            <span> What services do you offer?</span>
             <img
               className="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"

@@ -8,14 +8,19 @@
   margin-bottom: 30px;
 }
 
+.accordion-container {
+  max-width: 80%;
+  margin-inline: auto;
+}
+
 .accordion-sections-title {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 .accordion-sections-paragraph {
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 1em;
   color: #aaadad;
   text-align: justify;
 }
@@ -91,10 +96,36 @@
   .faq-animation-content h2 {
     font-size: 6em;
   }
+  .accordion-sections-paragraph {
+    font-size: 1em;
+    text-align: left;
+  }
   .accordion-sections-title {
-    font-size: 11px;
+    font-size: 1em;
+    text-align: left;
+    margin-right: -35px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .accordion-sections-title {
+    font-size: 0.8em;
+    text-align: left;
+    margin-right: -35px;
   }
   .accordion-sections-paragraph {
-    font-size: 11px;
+    font-size: 0.7em;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .accordion-sections-title {
+    font-size: 0.7em;
+    text-align: left;
+  }
+  .accordion-sections-paragraph {
+    font-size: 0.7em;
+    text-align: left;
   }
 }

@@ -13,7 +13,11 @@
   color: white;
   font-family: "Poppins", sans-serif;
   text-align: justify;
-  line-height: 2rem;
+  line-height: 1.5;
+  width: 70%;
+  margin-inline: auto;
+  letter-spacing: 0.02em;
+  word-spacing: 0.1em;
 }
 
 .about-animation-container {
@@ -84,10 +88,14 @@
     font-size: 6em;
   }
 
-  .about-paragraph {
-    font-size: 13px;
-  }
   .about-paragraph-container {
     margin-top: -40px;
+  }
+}
+
+@media (max-width: 765px) {
+  .about-paragraph {
+    font-size: 13px;
+    text-align: center;
   }
 }

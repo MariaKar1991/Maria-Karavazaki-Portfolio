@@ -34,6 +34,7 @@ export default function MyProjects(): JSX.Element {
           className="github-icon"
           src="/images/white-github.png"
           alt="GitHub Icon"
+          loading="lazy"
         />
       </div>
     </>

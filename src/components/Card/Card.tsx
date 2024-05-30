@@ -10,6 +10,7 @@ export default function Card({ project }: Props): JSX.Element {
         shadow rounded-lg overflow-hidden border"
         src={project.image}
         alt={project.name}
+        loading="lazy"
       />
       <div className="mt-8">
         <h4 className="project-name font-bold text-xl">{project.name}</h4>

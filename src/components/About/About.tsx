@@ -1,6 +1,6 @@
 import "./About.css";
 
-export default function About() {
+export default function About(): JSX.Element {
   return (
     <div className="about-container">
       <div className="about-animation-container">
@@ -19,7 +19,7 @@ export default function About() {
           <br />
           Overall, my goal is to provide end-to-end solutions that not only meet
           but exceed the expectations of my clients, delivering innovative and
-          reliable web applications that make a lasting impact.
+          reliable web applications.
         </p>
       </div>
     </div>
