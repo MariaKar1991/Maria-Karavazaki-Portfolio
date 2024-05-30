@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# Maria Karavazaki's Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This project showcases my work, skills, and experience. It's built using React and styled with Tailwind CSS to ensure a fully responsive design. You can explore my projects, download my CV, and contact me directly through the site.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Responsive Design: Fully responsive and mobile-friendly layout using Tailwind CSS.
+* Project Showcase: Display of my projects with details and links to live demos and source code.
+* CV Download: Easily download my CV.
+* Contact Form: Send me a message directly using EmailJS.
+* Smooth Scrolling: Smooth scrolling effect for a better user experience.
 
-## Expanding the ESLint configuration
+# Live Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Check out the live demo of the portfolio here: https://maria-karavazaki-portfolio.vercel.app/
+Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+* React
+* Tailwind CSS
+* EmailJS
+  
+Happy Coding 🚀!
