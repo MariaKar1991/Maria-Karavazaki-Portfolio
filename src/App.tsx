@@ -1,4 +1,3 @@
-import React from "react";
 import "./index.css";
 import "./App.css";
 import PortfolioContainer from "./components/PortfolioContainer/PortfolioContainer";
