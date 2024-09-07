@@ -56,13 +56,13 @@ export default function Contact(): JSX.Element {
               <div className="mb-5">
                 {/* Full Name field */}
                 <label
-                  className="contact-label mb-3 block text-base font-medium text-[#07074D]"
+                  className="contact-label mb-3 block text-base font-medium"
                   htmlFor="name"
                 >
                   Full Name
                 </label>
                 <input
-                  className="contact-input w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  className="contact-input w-full rounded-md border border-[#e0e0e0] py-3 px-6 font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
                   id="name"
                   name="name"
                   placeholder="Full Name"
@@ -73,13 +73,13 @@ export default function Contact(): JSX.Element {
               <div className="mb-5">
                 {/* Email Address field */}
                 <label
-                  className="contact-label mb-3 block text-base font-medium text-[#07074D]"
+                  className="contact-label mb-3 block font-medium text-[#07074D]"
                   htmlFor="email"
                 >
                   Email Address
                 </label>
                 <input
-                  className="contact-input w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  className="contact-input w-full rounded-md border border-[#e0e0e0] py-3 px-6 font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
                   id="email"
                   name="email"
                   placeholder="example@domain.com"
@@ -96,7 +96,7 @@ export default function Contact(): JSX.Element {
                   Message
                 </label>
                 <textarea
-                  className="contact-input w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  className="contact-input w-full resize-none rounded-md border border-[#e0e0e0] py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
                   id="message"
                   name="message"
                   placeholder="Type your message"
