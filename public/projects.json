@@ -19,5 +19,12 @@
     "description": "I created this full MERN Stack Social Media App using React, Tailwind CSS, Next.JS, Prisma, MongoDB Atlas, and the principles of Responsive Layout. Project includes features such as login, editing profiles, registration, notifications, following users, and commenting.",
     "demo": "",
     "code": "https://github.com/MariaKar1991/Chirp-Social-Media-App"
+  },
+   {
+    "name": "Gemini Clone App",
+    "image": "images/gemini.png",
+    "description": "This React app is a clone of the Google Gemini AI assistant. It allows users to input prompts and receive AI-generated responses. It includes pre-loader animation for loading responses, typing effect for a more natural feel and responsive design for various screen sizes.",
+    "demo": "https://ai-gemini-clone-react.vercel.app/",
+    "code": "https://github.com/MariaKar1991/Gemini-Clone-React"
   }
 ]
