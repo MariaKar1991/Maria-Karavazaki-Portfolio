@@ -16,7 +16,7 @@ export default function Skills(): JSX.Element {
           {skills.map((skill, index) => (
             <li key={index}>
               <a
-                className="skills-section py-3.5 w-full flex items-center text-white-500 hover:text-white-700 hover:bg-blue-50"
+                className="skills-section py-3.5 w-full flex items-center text-white"
                 href={skill.link}
                 target="_blank"
                 rel="noopener noreferrer"

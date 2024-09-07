@@ -62,7 +62,7 @@ export default function Contact(): JSX.Element {
                   Full Name
                 </label>
                 <input
-                  className="contact-input w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  className="contact-input w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
                   id="name"
                   name="name"
                   placeholder="Full Name"
@@ -79,7 +79,7 @@ export default function Contact(): JSX.Element {
                   Email Address
                 </label>
                 <input
-                  className="contact-input w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  className="contact-input w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
                   id="email"
                   name="email"
                   placeholder="example@domain.com"
@@ -96,7 +96,7 @@ export default function Contact(): JSX.Element {
                   Message
                 </label>
                 <textarea
-                  className="contact-input w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                  className="contact-input w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-[#6A64F1] focus:shadow-md"
                   id="message"
                   name="message"
                   placeholder="Type your message"
