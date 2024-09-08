@@ -21,7 +21,7 @@ export default function Accordion(): JSX.Element {
           <div className="accordion-sections-title flex cursor-pointer justify-between">
             <span> What services do you offer?</span>
             <img
-              className="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
+              className="mt-4 h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
             />
           </div>
@@ -41,7 +41,7 @@ export default function Accordion(): JSX.Element {
           <div className="accordion-sections-title flex cursor-pointer justify-between">
             <span> What technologies do you specialize in?</span>
             <img
-              className="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
+              className="mt-4 h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
             />
           </div>
@@ -66,7 +66,7 @@ export default function Accordion(): JSX.Element {
           <div className="accordion-sections-title flex cursor-pointer justify-between">
             <span>Can you provide examples of your work? </span>
             <img
-              className="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
+              className="mt-4 h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
             />
           </div>
