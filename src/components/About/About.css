@@ -1,41 +1,17 @@
-.about-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-paragraph-container {
-  max-width: 80%;
-}
-
 .about-paragraph {
-  color: white;
   font-family: "Poppins", sans-serif;
-  text-align: justify;
-  line-height: 1.7;
-  width: 70%;
-  margin-inline: auto;
-  letter-spacing: 0.02em;
-  word-spacing: 0.1em;
 }
 
 .about-animation-container {
-  margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
 }
 
 .about-animation-content {
   font-family: "Poppins", sans-serif;
-  margin-bottom: 110px;
-  text-align: center;
 }
 
 .about-animation-content h2 {
-  color: #fff;
   font-size: 10em;
-  position: absolute;
-  transform: translate(-50%, -50%);
 }
 
 .about-animation-content h2:nth-child(1) {

@@ -13,7 +13,7 @@ export default function NavigationBar(): JSX.Element {
 
   return (
     <>
-      <nav className="bg-white border-gray-200">
+      <nav className="bg-white border-gray-200 fixed top-0 left-0 w-full">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <div className="logo-container flex items-center space-x-3 rtl:space-x-reverse">
             <img
@@ -21,13 +21,13 @@ export default function NavigationBar(): JSX.Element {
               className="logo-nav-image"
               alt="logo image"
             />
-            <span className="name self-center text-2xl font-semibold whitespace-nowrap">
+            <span className="name text-black self-center text-2xl font-semibold whitespace-nowrap">
               Maria Karavazaki
             </span>
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <a
-              className="myCV"
+              className="myCV cursor-pointer"
               href={cvFilePath}
               download="Maria.Karavazaki.CV.pdf"
             >

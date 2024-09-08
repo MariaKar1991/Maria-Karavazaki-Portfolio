@@ -41,9 +41,9 @@ export default function Contact(): JSX.Element {
 
   return (
     <>
-      <div className="contact-container">
+      <div className="contact-container flex flex-col items-center justify-center h-screen">
         <div className="contact-animation-container">
-          <div className="contact-animation-content">
+          <div className="contact-animation-content text-center">
             {/* Contact header */}
             <h2 className="contact-header">Contact</h2>
             <h2 className="contact-header">Contact</h2>
@@ -107,7 +107,7 @@ export default function Contact(): JSX.Element {
               {/* Submit button */}
               <div>
                 <button
-                  className="submit-btn hover:shadow-form rounded-md bg-[#96969b] py-3 px-8 text-base font-semibold text-white outline-none"
+                  className="submit-btn hover:shadow-form rounded-md py-3 px-8 text-base font-semibold text-white outline-none"
                   type="submit"
                 >
                   Submit

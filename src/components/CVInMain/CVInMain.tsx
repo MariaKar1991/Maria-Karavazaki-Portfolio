@@ -5,9 +5,9 @@ export default function CVInMain(): JSX.Element {
   const cvFilePath = "/Maria.Karavazaki.CV.pdf";
 
   return (
-    <div className="cv-main-container">
+    <div className="cv-main-container flex items-center justify-center">
       <a
-        className="download-here"
+        className="download-here text-white text-center"
         href={cvFilePath}
         download="Maria.Karavazaki.CV.pdf"
       >

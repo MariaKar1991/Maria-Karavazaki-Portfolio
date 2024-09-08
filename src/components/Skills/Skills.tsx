@@ -3,15 +3,15 @@ import "./Skills.css";
 export default function Skills(): JSX.Element {
   return (
     <>
-      <div className="skills-animation-container">
+      <div className="skills-animation-container flex justify-center items-center max-w-full">
         <div className="skills-animation-content">
-          <h2 className="skills-header">Skills</h2>
-          <h2 className="skills-header">Skills</h2>
+          <h2 className="skills-header text-[#fff] absolute">Skills</h2>
+          <h2 className="skills-header text-[#fff] absolute">Skills</h2>
         </div>
       </div>
 
       <div className="skills mt-2 relative z-10">
-        <ul className="skills-list mt-8 mx-auto max-w-xs text-left font-medium text-lg leading-none border-gray-200">
+        <ul className="skills-list flex flex-wrap justify-between mt-8 mx-auto max-w-xs text-left font-medium text-lg leading-none border-gray-200">
           {/* List of skills with links to their respective documentation */}
           {skills.map((skill, index) => (
             <li key={index}>

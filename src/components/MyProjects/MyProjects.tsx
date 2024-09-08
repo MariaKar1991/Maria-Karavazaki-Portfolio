@@ -5,9 +5,9 @@ import "./MyProjects.css";
 export default function MyProjects(): JSX.Element {
   return (
     <>
-      <div className="myProjects-container">
+      <div className="myProjects-container flex justify-center items-center max-w-full">
         <section>
-          <div className="myProjects-content">
+          <div className="myProjects-content text-center">
             <h2>
               <span className="strongGap">My</span>Projects
             </h2>
@@ -18,8 +18,8 @@ export default function MyProjects(): JSX.Element {
         </section>
       </div>
       <ProjectsCards />
-      <div className="github-link-container">
-        <h1 className="github-link-my-projects">
+      <div className="github-link-container flex items-center justify-center">
+        <h1 className="github-link-my-projects text-white">
           You can find more examples of my previous work on my GitHub profile:
           <a
             className="github-link"

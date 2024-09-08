@@ -15,7 +15,7 @@ import "./MainPage.css";
 export default function MainPage(): JSX.Element {
   return (
     <>
-      <main className="main-container">
+      <main className="main-container flex flex-col items-center text-center h-screen min-h-screen">
         <NavigationBar />
         <Header />
         <About />
@@ -24,9 +24,9 @@ export default function MainPage(): JSX.Element {
         <CVInMain />
         <Accordion />
         <Contact />
-        <div className="main-image-container">
+        <div className="main-image-container relative flex items-center w-full h-auto">
           <img
-            className="avatar-in-main-image"
+            className="avatar-in-main-image max-w-full max-h-full"
             src="/images/total-gray-avatar.png"
             alt="avatar image in main page"
             loading="lazy"

@@ -1,23 +1,17 @@
 .header-container {
   margin-bottom: 220px;
   margin-top: 220px;
-  justify-content: center;
-  align-items: center;
-  margin-inline: auto;
   font-family: "Poppins", sans-serif;
 }
 
 .white-logo {
   animation: spin 2s linear infinite;
-  position: absolute;
   right: 15px;
   top: 80px;
 }
 
 .welcome-title {
-  color: white;
   font-weight: 900;
-  text-align: center;
   font-size: 95px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -29,7 +23,6 @@
   background-repeat: no-repeat;
   background-size: 80%;
   animation: shine 5s linear infinite;
-  position: relative;
 }
 
 h2 {

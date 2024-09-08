@@ -3,16 +3,16 @@ import "./Accordion.css";
 // Accordion component
 export default function Accordion(): JSX.Element {
   return (
-    <div className="faq-container">
-      <div className="faq-animation-container">
+    <div className="mt-[-200px]">
+      <div className="faq-animation-container flex justify-center items-center max-w-[100%]">
         <div className="faq-animation-content">
-          <h2 className="faq-header">FAQ</h2>
-          <h2 className="faq-header">FAQ</h2>
+          <h2 className="faq-header text-[#fff] absolute">FAQ</h2>
+          <h2 className="faq-header text-[#fff] absolute">FAQ</h2>
         </div>
       </div>
 
       {/* Accordion container */}
-      <div key="1" className="accordion-container">
+      <div key="1" className="accordion-container mx-auto max-w-[80%]">
         <div
           className="group flex flex-col gap-2 rounded-lg bg-black p-5 text-white"
           tabIndex={1}

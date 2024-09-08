@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
 .skills-animation-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
   margin-top: 200px;
   font-family: "Poppins", sans-serif;
 }
@@ -15,9 +11,7 @@
 }
 
 .skills-animation-content h2 {
-  color: #fff;
   font-size: 10em;
-  position: absolute;
   transform: translate(-50%, -50%);
 }
 
@@ -38,7 +32,6 @@
 }
 
 .skills-section {
-  color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -46,12 +39,6 @@
   background-color: rgb(67, 63, 88);
   border-radius: 5px;  
   color: white !important;
-}
-
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .skills-list li {

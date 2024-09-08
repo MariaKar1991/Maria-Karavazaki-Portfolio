@@ -1,24 +1,13 @@
 .footer-container {
-  position: relative;
-  bottom: 0;
   left: 0%;
   right: 0%;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   margin-top: 100px;
   margin-bottom: 60px;
   font-family: "Poppins", sans-serif;
 }
 
 .footer-paragraph {
-  color: white;
-  text-align: center;
-  justify-content: center;
   margin: 0 auto;
-  max-width: 100%;
   margin-bottom: 20px;
   padding: 0 10px;
   font-size: 15px;
@@ -31,7 +20,6 @@
 
 .arrowUp {
   border: 3px solid white;
-  border-radius: 50%;
   margin-bottom: 30px;
   cursor: pointer;
 }

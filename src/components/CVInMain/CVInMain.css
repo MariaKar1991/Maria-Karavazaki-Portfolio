@@ -1,16 +1,11 @@
 .cv-main-container {
-  justify-content: center;
-  align-items: center;
-  display: flex;
   margin-bottom: 200px;
   font-family: "Poppins", sans-serif;
 }
 
 .download-here {
-  color: white;
   font-size: 45px;
   margin-right: 25px;
-  text-align: center;
   font-family: "Poppins", sans-serif;
 }
 

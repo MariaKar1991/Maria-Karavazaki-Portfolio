@@ -2,15 +2,19 @@ import "./About.css";
 
 export default function About(): JSX.Element {
   return (
-    <div className="about-container">
-      <div className="about-animation-container">
-        <div className="about-animation-content">
-          <h2 className="about-header">About</h2>
-          <h2 className="about-header">About</h2>
+    <div className="about-container flex flex-col items-center justify-center">
+      <div className="about-animation-container mb-[50px]">
+        <div className="about-animation-content mb-[110px] text-center">
+          <h2 className="text-[#fff] absolute top-50 left-50 transform -translate-x-1/2 -translate-y-1/2">
+            About
+          </h2>
+          <h2 className="text-[#fff] absolute top-50 left-50 transform -translate-x-1/2 -translate-y-1/2">
+            About
+          </h2>
         </div>
       </div>
-      <div className="about-paragraph-container">
-        <p className="about-paragraph">
+      <div className="about-paragraph-container max-w-[80%]">
+        <p className="about-paragraph text-white text-justify leading-7 w-[70%] mx-auto tracking-tight word-spacing-[0.1rem]">
           I'm a bright, motivated, and enthusiastic web developer.
           <br />
           I'm passionate about React, Angular, Node.js, Next.js, Jest, UX/UI,
