@@ -1,4 +1,5 @@
 import "./About.css";
+import { ReactTyped } from "react-typed";
 
 export default function About(): JSX.Element {
   return (
@@ -15,8 +16,16 @@ export default function About(): JSX.Element {
       </div>
       <div className="about-paragraph-container max-w-[80%]">
         <p className="about-paragraph text-white text-justify leading-7 w-[70%] mx-auto tracking-tight word-spacing-[0.1rem]">
-          I'm a bright, motivated, and enthusiastic web developer.
-          <br />
+          I'm a bright, motivated, and enthusiastic web{" "}
+          <ReactTyped
+            className="inline-block"
+            strings={["developer.", "hero."]}
+            typeSpeed={120}
+            backSpeed={140}
+            loop
+          />
+        </p>
+        <p className="about-paragraph text-white text-justify leading-7 w-[70%] mx-auto tracking-tight word-spacing-[0.1rem]">
           I'm passionate about React, Angular, Node.js, Next.js, Jest, UX/UI,
           and MongoDB, learning new technologies and the software development
           techniques needed to write the best quality code.
