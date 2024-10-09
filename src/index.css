@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+hmtl {
+  scroll-behavior: smooth;
+}
+
 body,
 .accordion-sections-title {
   cursor: url("/images/logo-white.png"), auto;
