@@ -9,7 +9,7 @@ export default function ProjectsCards(): JSX.Element {
   const projects: Project[] = useContext(PortfolioContainerContext);
 
   return (
-    <div className="projects-cards-container flex flex-wrap justify-center items-center">
+    <div className="projects-cards-container grid sm:grid-cols-1 md:grid-cols-2 justify-center items-center">
       {/* Map through projects and render Card component for each project */}
       {projects.map((project) => (
         <Card key={project.name} project={project} />

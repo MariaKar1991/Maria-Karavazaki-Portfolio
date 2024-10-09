@@ -26,7 +26,7 @@ export default function MainPage(): JSX.Element {
         <Contact />
         <div className="main-image-container relative flex items-center w-full h-auto">
           <img
-            className="avatar-in-main-image max-w-full max-h-full"
+            className="avatar-in-main-image max-w-full  max-h-full"
             src="/images/total-gray-avatar.png"
             alt="avatar image in main page"
             loading="lazy"
