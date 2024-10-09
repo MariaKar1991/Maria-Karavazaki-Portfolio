@@ -18,7 +18,6 @@
 
 .github-link {
   color: #6f849f;
-  margin-left: 5px;
 }
 
 .faq-animation-container {
@@ -83,7 +82,7 @@
   }
   .accordion-sections-paragraph {
     font-size: 0.9em;
-    text-align: left;
+    
   }
   .accordion-sections-title {
     font-size: 1.5em;
@@ -100,7 +99,6 @@
   }
   .accordion-sections-paragraph {
     font-size: 0.7em;
-    text-align: left;
   }
 }
 
@@ -111,6 +109,5 @@
   }
   .accordion-sections-paragraph {
     font-size: 0.7em;
-    text-align: left;
   }
 }

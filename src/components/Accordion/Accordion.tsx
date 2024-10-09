@@ -25,7 +25,7 @@ export default function Accordion(): JSX.Element {
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
             />
           </div>
-          <div className="accordion-sections-paragraph invisible h-auto max-h-0 opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
+          <div className="accordion-sections-paragraph invisible h-auto max-h-0 opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000 flex mx-auto items-center justify-center">
             As a web developer, I offer a comprehensive range of services
             tailored to meet the diverse needs of my clients. My expertise spans
             both frontend and backend development, ensuring that I can deliver a
@@ -64,29 +64,25 @@ export default function Accordion(): JSX.Element {
           tabIndex={3}
         >
           <div className="accordion-sections-title flex cursor-pointer justify-between">
-            <span>Can you provide examples of your work? </span>
+            <span>Any examples of your work? </span>
             <img
               className="mt-4 h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
             />
           </div>
-          <div className="accordion-sections-paragraph invisible h-auto max-h-0 opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
-            You can find examples of my previous work on my GitHub profile:
+          <div className="accordion-sections-paragraph invisible h-auto max-h-0 opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000 items-center justify-center">
+            You can find examples of my previous work on:
             <a
-              className="github-link"
+              className="github-link block"
               href="https://github.com/MariaKar1991"
               target="_blank"
             >
-              https://github.com/MariaKar1991
+              https://github.com/MariaKar199.
             </a>
-            <br />
             On my GitHub, you'll find a collection of projects that demonstrate
-            my skills and expertise in web development.
-            <br />
-            Feel free to explore my repositories to get a better sense of my
-            coding style, problem-solving abilities, and the types of projects
-            I've worked on.
-            <br />
+            my skills and expertise in web development. Feel free to explore my
+            repositories to get a better sense of my coding style,
+            problem-solving abilities, and the types of projects I've worked on.
             If you have any questions or would like more information about a
             specific project, please don't hesitate to reach out.
           </div>
